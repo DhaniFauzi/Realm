@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:id="@+id/tv_email"
-            android:text="Email"/>
+            android:id="@+id/tv_catatan"
+            android:text="Catatan"/>
 
     </LinearLayout>
 

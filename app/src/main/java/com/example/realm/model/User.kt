@@ -1,18 +1,19 @@
 package com.example.realm.model
 
 import io.realm.RealmObject
+import io.realm.annotations.RealmClass
 
-
+@RealmClass
 open class User : RealmObject(){
-    private var id : Int = 0
-    private var nama : String = ""
-    private var email : String = ""
+    private var id : Int? = null
+    private var nama : String? = null
+    private var catatan : String ? = null
 
     fun setId(id:Int){
         this.id = id
     }
 
-    fun getId():Int{
+    fun getId():Int?{
         return id
     }
 
@@ -20,15 +21,15 @@ open class User : RealmObject(){
         this.nama = nama
     }
 
-    fun getNama():String{
+    fun getNama():String?{
         return nama
     }
 
-    fun setEmail(email:String){
-        this.email = email
+    fun setCatatan(catatan:String){
+        this.catatan = catatan
     }
 
-    fun getEmail():String{
-        return email
+    fun getCatatan():String?{
+        return catatan
     }
 }
