@@ -30,7 +30,8 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:id="@+id/tv_catatan"
-            android:text="Catatan"/>
+            android:text="Catatan"
+            android:maxLines="4"/>
 
     </LinearLayout>
 
