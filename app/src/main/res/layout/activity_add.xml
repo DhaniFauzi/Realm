@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpdateActivity"
+    tools:context=".Add"
     android:padding="20dp">
 
     <EditText
-        android:id="@+id/et_NAMA2"
+        android:id="@+id/et_NAMA3"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:hint="JUDUL"
@@ -16,20 +16,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
 
     <EditText
-        android:id="@+id/et_catatan2"
+        android:id="@+id/et_catatan3"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:hint="CATATAN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_NAMA2" />
+        app:layout_constraintTop_toBottomOf="@+id/et_NAMA3" />
+
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -40,24 +41,12 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_DELETE2"
+        android:id="@+id/btn_ADD2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="DELETE"
+        android:hint="ADD"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_UPDATE2" />
-
-    <Button
-        android:id="@+id/btn_UPDATE2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="UPDATE"
-        android:layout_marginTop="150dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_catatan2" />
-
+        app:layout_constraintTop_toBottomOf="@+id/et_catatan3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun buttonadd(){
-        fab_add.setOnClickListener {
-            startActivity(Intent(this, UpdateActivity::class.java))
+        btn_tambah.setOnClickListener {
+            startActivity(Intent(this, Add::class.java))
             finish()
         }
     }
